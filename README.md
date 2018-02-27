@@ -12,7 +12,7 @@ Call the shell with:
 ```sh
 $ shell [-t] [-c]
     -t Do not display prompt.
-    -c Do not display colors.
+    -c Do not print colors.
 ```
 
 ### Syntax
