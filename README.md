@@ -10,9 +10,9 @@ $ make
 ### Usage
 Call the shell with:
 ```sh
-$ shell [-t] [-c]
-    -t Do not display prompt.
-    -c Do not print colors.
+$ ./shell [-t] [-c]
+#    -t Do not display prompt.
+#    -c Do not print colors.
 ```
 
 ### Syntax
@@ -20,10 +20,10 @@ $ shell [-t] [-c]
 $ exit
 $ cd dir
 $ command [< input_file] [| command] ... [> output_file] [2> output_file] [>> output_file]
-    < Redirect input.
-    > Redirect output (opens file with O_TRUNC).
-    2> Redirect errors (opens file with O_TRUNC).
-    >> Redirect output (opens file with O_APPEND).
+#    < Redirect input.
+#    > Redirect output (opens file with O_TRUNC).
+#    2> Redirect errors (opens file with O_TRUNC).
+#    >> Redirect output (opens file with O_APPEND).
 ```
 
 ### License
